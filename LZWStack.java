@@ -19,10 +19,9 @@ public class LZWStack{
         	}
     	}
 
-    	// Whatever properties are needed to implement the stack
     	public void push(char item){
         	//Node currStackNode = head;
-       	 	Node newNode = new Node(item);//Creating new Node object
+       	 	Node newNode = new Node(item);
         	newNode.next = head;
         	//Assigning newNode to the head of the linked list
         	head = newNode;
