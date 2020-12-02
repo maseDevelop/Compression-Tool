@@ -8,8 +8,8 @@
  
  **Compressing Data**
  
- $ cat inputdata|java LZWencode|java LZWpack > outputPacked
+inputdata | java LZWencode | java LZWpack > outputPacked
  
  **Uncompressing Data**
  
- $ cat outputPacked|java LZWunpack|java LZWdecode > copyedInputData
+outputPacked | java LZWunpack | java LZWdecode > copyedInputData
